@@ -1,1 +1,40 @@
-{\rtf1}
+.navbar-brand span {
+    color: #012970;
+
+}
+
+.nav-item .link-text {
+    color: #012970 !important;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.nav-item .active-link {
+    color: #012970 !important;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.nav-item:hover {
+    font-weight: 700;
+    font-size: 16px;
+    font-weight: bold;
+    color: blue !important;
+}
+#home{
+    background: url("../img/hero-bg.png");
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#home h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #012970;
+}
+.bg-custom{
+    background-color: #f6f9ff;
+}

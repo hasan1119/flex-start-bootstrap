@@ -1,21 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexStart BootStrap</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <!-- BootStrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
 
+<body>
+
+    <!-- header starts -->
+    <header class="sticky-top bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light p-0 ">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="./img/logo.png" alt="">
+                    <span class="h3 pt-2 ps-2">FlexStart</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 d-flex align-items-center mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-text" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-text" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-text" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-text" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-text" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-text dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                                <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-text" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn text-white fw-bold btn-primary" href="">Get Started</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header ends -->
+
+    <main>
+        <!-- home section starts -->
+        <section id="home">
+            <div
+                class="container py-4">
+                <div class="row row-cols-1 row-cols-lg-2 d-flex justify-content-center align-items-center mb-4 py-5">
+                    <div class="d-flex justify-content-center flex-column align-items-center my-5 text-center text-lg-start align-items-lg-start">
+                        <h1 class="fs-1">We offer modern solutions for growing your business</h1>
+                        <h2 class="text-muted fs-6 py-4">We are team of talented designers making websites
+                            with Bootstrap</h2>
+                        <a class="btn btn-primary" href="">Get Started</a>
+                    </div>
+                    <div class="d-flex justify-content-center flex-column align-items-center text-center">
+                        <div class="w-100 hero-img">
+                            <img class="img-fluid" src="./img/hero-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- home section ends -->
+
+        <!-- about section starts -->
+        <section id="about">
+            <div class="container my-4">
+                <div class="row row-cols-1 row row-cols-lg-2 d-flex justify-content-center align-items-center text-center text-lg-start py-5 ">
+                    <div class="mb-4 bg-custom p-0">
+                        <h3 class="small text-danger">WHO WE ARE</h3>
+                        <h2 class="text-primary fs-1">Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat
+                            corrupti reprehenderit.</h2>
+                        <p  class=" fs-6 text-muted">Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor
+                            consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et
+                            est corrupti.</p>
+                        <a class="btn btn-primary" href="#">Read More</a>
+                    </div>
+                    <div class="p-0">
+                        <div class="about-img">
+                            <img class="img-fluid" src="./img/about.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section ends -->
+    </main>
 
     <!-- BootStrap js -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
